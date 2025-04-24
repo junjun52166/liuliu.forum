@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +25,15 @@
     <meta property="twitter:title" content="Monster Survivors | Free Online Survival Game">
     <meta property="twitter:description" content="Play Monster Survivors online - an exciting survival game with endless monster battles. Free to play in your browser.">
     <meta property="twitter:image" content="https://liuliu.forum/images/monster-survivors-preview.jpg">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPZRVC4HVX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YPZRVC4HVX');
+    </script>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -63,90 +73,3 @@
         }
     </style>
 </head>
-<body class="bg-apple-light-gray text-apple-dark-gray min-h-screen flex flex-col">
-    <header class="bg-white shadow-sm">
-        <div class="container mx-auto px-4 py-6">
-            <nav class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-semibold text-apple-dark-gray hover:text-apple-blue transition">liuliu.forum</a>
-                <div class="space-x-6">
-                    <a href="#game" class="text-apple-dark-gray hover:text-apple-blue transition">Play</a>
-                    <a href="#about" class="text-apple-dark-gray hover:text-apple-blue transition">About</a>
-                    <a href="#features" class="text-apple-dark-gray hover:text-apple-blue transition">Features</a>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <main class="flex-grow container mx-auto px-4 py-8">
-        <section class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-apple-dark-gray">Monster Survivors</h1>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto">The ultimate survival challenge against endless waves of monsters - how long can you last?</p>
-        </section>
-
-        <section id="game" class="mb-16">
-            <h2 class="text-3xl font-semibold mb-6 text-center text-apple-dark-gray">Play Monster Survivors Now</h2>
-            <div class="game-container rounded-lg shadow-xl overflow-hidden bg-white">
-                <iframe 
-                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
-                    class="game-iframe" 
-                    allow="autoplay; fullscreen" 
-                    title="Monster Survivors Game"
-                    loading="lazy">
-                </iframe>
-            </div>
-        </section>
-
-        <section id="about" class="mb-16">
-            <h2 class="text-3xl font-semibold mb-6 text-center text-apple-dark-gray">About Monster Survivors</h2>
-            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-sm">
-                <p class="mb-4 text-lg">Monster Survivors is an action-packed survival game where players face endless waves of increasingly dangerous monsters. With simple controls but deep strategy, the game challenges you to survive as long as possible while upgrading your character's abilities.</p>
-                <p class="mb-4 text-lg">Originally developed as a mobile game, Monster Survivors has been adapted for browser play with improved graphics and additional content. The game features multiple character classes, dozens of weapons and power-ups, and leaderboards to compete with players worldwide.</p>
-                <p class="text-lg">Best of all - it's completely free to play with no downloads required. Just load the game in your browser and start surviving!</p>
-            </div>
-        </section>
-
-        <section id="features" class="mb-16">
-            <h2 class="text-3xl font-semibold mb-8 text-center text-apple-dark-gray">Game Features</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-3 text-apple-blue">Endless Gameplay</h3>
-                    <p>Survive as long as you can against never-ending monster waves that get progressively harder.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-3 text-apple-green">Multiple Characters</h3>
-                    <p>Choose from 8 unique characters, each with special abilities and play styles.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-3 text-apple-light-blue">Upgrade System</h3>
-                    <p>Collect coins during gameplay to permanently upgrade your stats between runs.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-apple-blue text-white p-8 rounded-lg text-center">
-            <h2 class="text-3xl font-semibold mb-4">Ready to Play?</h2>
-            <p class="mb-6 text-xl max-w-2xl mx-auto">Join thousands of players battling monsters right now - no registration required!</p>
-            <a href="#game" class="inline-block bg-white text-apple-blue px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition">Play Monster Survivors</a>
-        </section>
-    </main>
-
-    <footer class="bg-apple-dark-gray text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <a href="/" class="text-2xl font-semibold text-white">liuliu.forum</a>
-                    <p class="mt-2 text-gray-400">Your portal to the best online games</p>
-                </div>
-                <div class="flex space-x-6">
-                    <a href="/privacy" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
-                    <a href="/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a>
-                    <a href="/contact" class="text-gray-400 hover:text-white transition">Contact Us</a>
-                </div>
-            </div>
-            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-                <p>© 2023 liuliu.forum. All rights reserved. Monster Survivors is a trademark of its respective owners.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
